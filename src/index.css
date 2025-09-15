@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Coming+Soon&display=swap');
+@import "tailwindcss";
+
+.cabin-sketch {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.coming-soon {
+  font-family: 'Coming Soon', cursive;
+}
