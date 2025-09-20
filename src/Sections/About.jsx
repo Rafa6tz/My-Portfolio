@@ -14,7 +14,7 @@ const About = () => {
                 <img src={profile} alt='profile' className='md:w-48 md:h-48 w-36 h-36 rounded-full object-cover'/>
             </div>
         </div>
-        <div className='flex flex-col justify-centerp-4 gap-4 rotate-1 border-2 md:w-4/5 w-4/5 px-4 py-8 z-20 bg-yellow-100 border-yellow-300 border-dashed'>
+        <div className='flex flex-col justify-centerp-4 gap-4 rotate-1 border-2 w-4/5 px-4 py-8 z-20 bg-yellow-100 border-yellow-300 border-dashed'>
             <img className='absolute -top-12 -left-14 rotate-270 md:block hidden' width="80" height="80" src="https://img.icons8.com/carbon-copy/100/pin.png" alt="pin"/>
             <p className='text-xl text-center font-bold mb-4 cabin-sketch'>Hobbies e Atividades Favoritas</p>
             <div className='w-full flex flex-wrap text-sm md:text-base md:flex-row flex-col md:gap-16 gap-8 justify-center items-center'>

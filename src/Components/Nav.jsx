@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <nav className='cabin-sketch p-4 bg-white fixed flex items-center top-0 left-0 w-screen h-20 border-b-2 border-dashed border-gray-300 shadow-xl z-30'>
+    <nav className='cabin-sketch p-4 bg-white fixed flex items-center top-0 left-0 w-screen h-20 border-b-2 border-dashed border-gray-300 shadow-xl z-90'>
         <div className='px-16 font-bold md:text-2xl w-1/3'>
             Rafael Seitz
         </div>

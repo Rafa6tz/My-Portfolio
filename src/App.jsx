@@ -1,5 +1,7 @@
 import Nav from "./Components/Nav"
+import Abilities from "./Sections/Abilities"
 import About from "./Sections/About"
+import Contact from "./Sections/Contact"
 import Projects from "./Sections/Projects"
 
 
@@ -20,6 +22,8 @@ function App() {
       />
       <About/>
       <Projects/>
+      <Abilities/>
+      <Contact/>
       <div className="fixed left-16 top-0 bottom-0 w-px bg-red-400 opacity-60 pointer-events-none" />
       <div className="fixed left-8 top-0 bottom-0 flex flex-col justify-start pt-20 pointer-events-none h-250 overflow-hidden">
         {Array.from({ length: 12 }).map((_, i) => (
